@@ -8,7 +8,7 @@ function run() {
         extensionPoints: {
             toolbar: {
                 title: 'CCPM Chart',
-                svgIcon: icon24,
+                toolbarSvgIcon: icon24,
                 librarySvgIcon: icon48,
                 onClick: () => {
                     miro.board.ui.openLibrary('tasks.html', {title: 'CCPM Chart'})
