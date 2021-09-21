@@ -7,7 +7,16 @@ function createSticker () {
         "style": {
           "backgroundColor": "#ff00ff"
         }
-      }]
+      },
+    {
+        "type": "sticker",
+        "title": "Date",
+        "y": -10,
+        "x": -10,
+        "style": {
+            "backgroundColor": "#ffffff"
+        }
+    }]
 
       miro.board.widgets.create(widget)
 }
