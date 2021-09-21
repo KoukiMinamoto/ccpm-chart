@@ -7,7 +7,7 @@ function run() {
     miro.initialize({
         extensionPoints: {
             toolbar: {
-                title: 'CCPM Chart',
+                title: 'CCPM Chart v2',
                 toolbarSvgIcon: icon24,
                 librarySvgIcon: icon48,
                 onClick: () => {
